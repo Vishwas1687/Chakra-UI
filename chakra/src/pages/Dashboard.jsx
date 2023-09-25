@@ -31,7 +31,11 @@ const Dashboard = () => {
 
     //Version 2
     <SimpleGrid minChildWidth="250px" gap="2rem" m="10px">
-      <Box bg="white" height="200px" border="1px solid" ></Box>
+      <Box bg="white" height="200px" border="1px solid" >
+        <Text color={{base:'purple',md:'green','2xl':'red'}}>
+          Hello
+        </Text>
+      </Box>
       <Box bg="white" height="200px" border="1px solid" ></Box>
       <Box bg="white" height="200px" border="1px solid" ></Box>
       <Box bg="white" height="200px" border="1px solid" ></Box>

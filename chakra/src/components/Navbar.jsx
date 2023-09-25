@@ -11,7 +11,7 @@ const Navbar = () => {
 
         <Spacer/>
         <HStack spacing="20px">
-            <Box bg="gray.200" p="10px">
+            <Box bg="gray.200" p="10px" borderRadius={50}>
                M
             </Box>
             <Text>
